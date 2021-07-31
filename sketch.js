@@ -60,7 +60,7 @@ function setup() {
   polygon = Bodies.circle(50,200,20);
   World.add(world,polygon);
   
-  slingShot = new Slingshot(this.polygon,{x:100,y:200});
+  slingShot = new Slingshot(this.polygon,{x:100,y:100});
 
 }
 function draw() {
@@ -78,7 +78,7 @@ function draw() {
   stand2.display();
   strokeWeight(2);
   stroke(15);
-  fill("skyblue");
+  
   block1.display();
   block2.display();
   block3.display();
@@ -86,29 +86,29 @@ function draw() {
   block5.display();
   block6.display();
   block7.display();
-  fill("pink");
+  
   block8.display();
   block9.display();
   block10.display();
   block11.display();
   block12.display();
-  fill("turquoise");
+  
   block13.display();
   block14.display();
   block15.display();
-  fill("grey");
+  
   block16.display();
-  fill("skyblue");
+  
   blocks1.display();
   blocks2.display();
   blocks3.display();
   blocks4.display();
   blocks5.display();
-  fill("turquoise");
+  
   blocks6.display();
   blocks7.display();
   blocks8.display();
-  fill("pink")
+  
   blocks9.display();
   fill("gold");
   imageMode(CENTER)
