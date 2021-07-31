@@ -13,7 +13,7 @@ class Block{
     display(){
       
       if(this.body.speed>3){
-       // World.remove(world,this.body)
+      World.remove(world,this.body)
        push();
         this.visiblity=-5;
         tint(255,this.visiblity);
